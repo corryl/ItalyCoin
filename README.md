@@ -42,7 +42,7 @@ compilazione gui qt:
 
 cd ~/ItalyCoin
 
-qmake "USE_UPNP=-"
+qmake "USE_UPNP=1"
 
 make
 
