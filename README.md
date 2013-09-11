@@ -12,7 +12,7 @@ Un nuovo blocco ogni 60 sec.
 
 50 coin per blocco.
 
-RPC Port: 9010
+RPC Port: 9004
 
 Possibilità di mining direttamente dal portafoglio elettronico.
 
