@@ -50,7 +50,8 @@ qmake "USE_UPNP=1"
 make
 ---------------------------------
 ---------------------------------
-Compilazione x OSX ( seguire le info nella cartella DOC per eventuali dipendenze, il tutto è stato testato, trovate anche i bin gia compilati
+Compilazione x OSX  Tested with QT 4.8
+( seguire le info nella cartella DOC per eventuali dipendenze, il tutto è stato testato, trovate anche i bin gia compilati
 
 cd ~/ItalyCoin/src
 
