@@ -32,7 +32,8 @@ The patch will be accepted if there is broad consensus that it is a good thing. 
 
 The master branch is regularly built and tested, but is not guaranteed to be completely stable. Tags are created regularly to indicate new official, stable release versions of ItalyCoin.
 
-Compilazione.
+---------------------------------
+COMPILAZIONE PER UNIX
 
 cd ~/ItalyCoin/src
 
@@ -45,5 +46,21 @@ cd ~/ItalyCoin
 qmake "USE_UPNP=1"
 
 make
+---------------------------------
+---------------------------------
+Compilazione x OSX ( seguire le info nella cartella DOC per eventuali dipendenze, il tutto è stato testato, trovate anche i bin gia compilati
+
+cd ~/ItalyCoin/src
+
+make -f makefile.osx USE_UPNP=1
+
+compilazione gui qt:
+
+cd ~/ItalyCoin
+
+qmake "USE_UPNP=1"
+
+make
+--------------------------------
 
 
