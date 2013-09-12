@@ -1,5 +1,5 @@
 ItalyCoin è una valuta elettronica basata su una rete P2P, la quale permette pagamenti istantanei e anonimi a qualsiasi persona nel mondo, ma principalmente studiata per il mercato italiano. ItalyCoin si basa sul protocollo Bitcoin ma ne differisce, in quanto il mining può essere eseguito con una certa efficienza anche con l'hardware in possesso del normale consumatore. ItalyCoin garantisce conferme delle transazioni più veloci (1 minuto in media) e adopera un algoritmo di mining basato su scrypt, in modo da avere come target i normali computer e le GPU più diffuse. La rete ItalyCoin è programmata per produrre 5 Miliardi di unità monetarie.
-
+__________________________________
 ItalyCoin è basata su LiteCoin:
 
 LiteCoin è la versione lite di Bitcoin che utilizza scrypt come algoritmo di lavoro.
@@ -13,6 +13,8 @@ Un nuovo blocco ogni 60 sec.
 50 coin per blocco.
 
 RPC Port: 9004
+
+Minazione dal Wallet direttamente sia SOLO che POOL
 
 Possibilità di mining direttamente dal portafoglio elettronico.
 
