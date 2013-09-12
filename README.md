@@ -36,7 +36,7 @@ Compilazione.
 
 cd ~/ItalyCoin/src
 
-make -f makefile.unix USE_UPNP=-
+make -f makefile.unix USE_UPNP=1
 
 compilazione gui qt:
 
