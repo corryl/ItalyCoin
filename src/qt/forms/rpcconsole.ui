@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>740</width>
-    <height>450</height>
+    <height>533</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -21,7 +21,7 @@
      </property>
      <widget class="QWidget" name="tab_info">
       <attribute name="title">
-       <string>&amp;Information</string>
+       <string>Informazioni</string>
       </attribute>
       <layout class="QGridLayout" name="gridLayout" columnstretch="0,1">
        <property name="horizontalSpacing">
@@ -36,14 +36,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Bitcoin Core</string>
+          <string>ItalyCoin - Generale</string>
          </property>
         </widget>
        </item>
        <item row="1" column="0">
         <widget class="QLabel" name="label_5">
          <property name="text">
-          <string>Client name</string>
+          <string>Nome del client</string>
          </property>
         </widget>
        </item>
@@ -66,7 +66,7 @@
        <item row="2" column="0">
         <widget class="QLabel" name="label_6">
          <property name="text">
-          <string>Client version</string>
+          <string>Versione del client</string>
          </property>
         </widget>
        </item>
@@ -89,7 +89,7 @@
        <item row="3" column="0">
         <widget class="QLabel" name="label_14">
          <property name="text">
-          <string>Using OpenSSL version</string>
+          <string>Versione OpenSSL</string>
          </property>
          <property name="indent">
           <number>10</number>
@@ -115,7 +115,7 @@
        <item row="4" column="0">
         <widget class="QLabel" name="label_12">
          <property name="text">
-          <string>Build date</string>
+          <string>Data del build</string>
          </property>
         </widget>
        </item>
@@ -138,7 +138,7 @@
        <item row="5" column="0">
         <widget class="QLabel" name="label_13">
          <property name="text">
-          <string>Startup time</string>
+          <string>Avviato da</string>
          </property>
         </widget>
        </item>
@@ -167,14 +167,14 @@
           </font>
          </property>
          <property name="text">
-          <string>Network</string>
+          <string>Rete</string>
          </property>
         </widget>
        </item>
        <item row="7" column="0">
         <widget class="QLabel" name="label_7">
          <property name="text">
-          <string>Number of connections</string>
+          <string>Numero di connessioni</string>
          </property>
         </widget>
        </item>
@@ -197,7 +197,7 @@
        <item row="8" column="0">
         <widget class="QLabel" name="label_8">
          <property name="text">
-          <string>On testnet</string>
+          <string>Testnet</string>
          </property>
         </widget>
        </item>
@@ -227,7 +227,7 @@
        <item row="10" column="0">
         <widget class="QLabel" name="label_3">
          <property name="text">
-          <string>Current number of blocks</string>
+          <string>Numero corrente di blocchi</string>
          </property>
         </widget>
        </item>
@@ -250,7 +250,7 @@
        <item row="11" column="0">
         <widget class="QLabel" name="label_4">
          <property name="text">
-          <string>Estimated total blocks</string>
+          <string>Numero totale (stimato) di blocchi </string>
          </property>
         </widget>
        </item>
@@ -273,7 +273,7 @@
        <item row="12" column="0">
         <widget class="QLabel" name="label_2">
          <property name="text">
-          <string>Last block time</string>
+          <string>Ultimo blocco</string>
          </property>
         </widget>
        </item>
@@ -315,7 +315,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Debug logfile</string>
+          <string>Debug Log</string>
          </property>
         </widget>
        </item>
@@ -325,7 +325,7 @@
           <string>Open the ItalyCoin debug logfile from the current data directory. This can take a few seconds for large logfiles.</string>
          </property>
          <property name="text">
-          <string>&amp;Open</string>
+          <string>Apri</string>
          </property>
          <property name="autoDefault">
           <bool>false</bool>
@@ -341,7 +341,7 @@
           </font>
          </property>
          <property name="text">
-          <string>Command-line options</string>
+          <string>Opzioni Command-line</string>
          </property>
         </widget>
        </item>
@@ -351,10 +351,7 @@
           <string>Show the italycoin-qt help message to get a list with possible command-line options.</string>
          </property>
          <property name="text">
-          <string>&amp;Show</string>
-         </property>
-         <property name="autoDefault">
-          <bool>false</bool>
+          <string>Mostra</string>
          </property>
          <property name="autoDefault">
           <bool>false</bool>
@@ -378,7 +375,7 @@
      </widget>
      <widget class="QWidget" name="tab_console">
       <attribute name="title">
-       <string>&amp;Console</string>
+       <string>Console</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_3">
        <property name="spacing">

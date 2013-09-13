@@ -27,13 +27,13 @@
      </property>
      <widget class="QWidget" name="tabMain">
       <attribute name="title">
-       <string>&amp;Main</string>
+       <string>Generale</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Main">
        <item>
         <widget class="QLabel" name="transactionFeeInfoLabel">
          <property name="text">
-          <string>Optional transaction fee per kB that helps make sure your transactions are processed quickly. Most transactions are 1 kB. Fee 0.01 recommended.</string>
+          <string>È possibile stabilire una commissione per ogni kB trasmesso, questo aiuta ad assicurare la rapida esecuzione delle transazioni. La maggior parte delle transazioni pesa 1kB e la commissione di 0.01 è raccomandata.</string>
          </property>
          <property name="textFormat">
           <enum>Qt::PlainText</enum>
@@ -48,7 +48,7 @@
          <item>
           <widget class="QLabel" name="transactionFeeLabel">
            <property name="text">
-            <string>Pay transaction &amp;fee</string>
+            <string>Commissione per kB</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -82,7 +82,7 @@
           <string>Automatically start ItalyCoin after logging in to the system.</string>
          </property>
          <property name="text">
-          <string>&amp;Start ItalyCoin on system login</string>
+          <string>Starta ItalyCoin all'avvio del sistema</string>
          </property>
         </widget>
        </item>
@@ -92,7 +92,7 @@
           <string>Detach block and address databases at shutdown. This means they can be moved to another data directory, but it slows down shutdown. The wallet is always detached.</string>
          </property>
          <property name="text">
-          <string>&amp;Detach databases at shutdown</string>
+          <string>Distaccare il database allo spegnimento del sistema</string>
          </property>
         </widget>
        </item>
@@ -113,7 +113,7 @@
      </widget>
      <widget class="QWidget" name="tabNetwork">
       <attribute name="title">
-       <string>&amp;Network</string>
+       <string>Rete</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Network">
        <item>
@@ -122,7 +122,7 @@
           <string>Automatically open the ItalyCoin client port on the router. This only works when your router supports UPnP and it is enabled.</string>
          </property>
          <property name="text">
-          <string>Map port using &amp;UPnP</string>
+          <string>Mappa porta usando UPnP</string>
          </property>
         </widget>
        </item>
@@ -132,7 +132,7 @@
           <string>Connect to the ItalyCoin network through a SOCKS proxy (e.g. when connecting through Tor).</string>
          </property>
          <property name="text">
-          <string>&amp;Connect through SOCKS proxy:</string>
+          <string>&amp;Connessione tramite SOCKS proxy</string>
          </property>
         </widget>
        </item>
@@ -167,7 +167,7 @@
          <item>
           <widget class="QLabel" name="proxyPortLabel">
            <property name="text">
-            <string>&amp;Port:</string>
+            <string>Porta:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -193,7 +193,7 @@
          <item>
           <widget class="QLabel" name="socksVersionLabel">
            <property name="text">
-            <string>SOCKS &amp;Version:</string>
+            <string>Versione SOCKS:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -242,7 +242,7 @@
      </widget>
      <widget class="QWidget" name="tabWindow">
       <attribute name="title">
-       <string>&amp;Window</string>
+       <string>Finestra</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Window">
        <item>
@@ -251,7 +251,7 @@
           <string>Show only a tray icon after minimizing the window.</string>
          </property>
          <property name="text">
-          <string>&amp;Minimize to the tray instead of the taskbar</string>
+          <string>Minimizza nella system tray invece che nella barra delle applicazioni</string>
          </property>
         </widget>
        </item>
@@ -261,7 +261,7 @@
           <string>Minimize instead of exit the application when the window is closed. When this option is enabled, the application will be closed only after selecting Quit in the menu.</string>
          </property>
          <property name="text">
-          <string>M&amp;inimize on close</string>
+          <string>Minimizza alla chiusura</string>
          </property>
         </widget>
        </item>
@@ -282,7 +282,7 @@
      </widget>
      <widget class="QWidget" name="tabDisplay">
       <attribute name="title">
-       <string>&amp;Display</string>
+       <string>Schermo</string>
       </attribute>
       <layout class="QVBoxLayout" name="verticalLayout_Display">
        <item>
@@ -290,7 +290,7 @@
          <item>
           <widget class="QLabel" name="langLabel">
            <property name="text">
-            <string>User Interface &amp;language:</string>
+            <string>Lingua dell'interfaccia grafica:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -314,7 +314,7 @@
          <item>
           <widget class="QLabel" name="unitLabel">
            <property name="text">
-            <string>&amp;Unit to show amounts in:</string>
+            <string>Usa la seguente valuta:</string>
            </property>
            <property name="textFormat">
             <enum>Qt::PlainText</enum>
@@ -339,7 +339,7 @@
           <string>Whether to show ItalyCoin addresses in the transaction list or not.</string>
          </property>
          <property name="text">
-          <string>&amp;Display addresses in transaction list</string>
+          <string>Mostra gli indirizzi nella lista di transazioni</string>
          </property>
         </widget>
        </item>
@@ -417,7 +417,7 @@
      <item>
       <widget class="QPushButton" name="cancelButton">
        <property name="text">
-        <string>&amp;Cancel</string>
+        <string>Cancella</string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -427,7 +427,7 @@
      <item>
       <widget class="QPushButton" name="applyButton">
        <property name="text">
-        <string>&amp;Apply</string>
+        <string>Applica</string>
        </property>
        <property name="autoDefault">
         <bool>false</bool>
@@ -449,6 +449,7 @@
    <class>BitcoinAmountField</class>
    <extends>QSpinBox</extends>
    <header>bitcoinamountfield.h</header>
+   <container>1</container>
   </customwidget>
   <customwidget>
    <class>QValueComboBox</class>

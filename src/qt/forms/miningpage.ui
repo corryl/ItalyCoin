@@ -30,7 +30,7 @@
       <bool>true</bool>
      </property>
      <property name="text">
-      <string>Username</string>
+      <string>Nome utente</string>
      </property>
     </widget>
    </item>
@@ -70,7 +70,7 @@
       <bool>true</bool>
      </property>
      <property name="text">
-      <string>Port</string>
+      <string>Porta</string>
      </property>
     </widget>
    </item>
@@ -83,7 +83,7 @@
       </sizepolicy>
      </property>
      <property name="text">
-      <string>Start Mining</string>
+      <string>Avvia Mining</string>
      </property>
     </widget>
    </item>
@@ -148,7 +148,7 @@
       <enum>Qt::LeftToRight</enum>
      </property>
      <property name="text">
-      <string>Scantime</string>
+      <string>Tempo di scansione</string>
      </property>
     </widget>
    </item>
@@ -172,7 +172,7 @@
    <item row="3" column="1">
     <widget class="QLabel" name="typeLabel">
      <property name="text">
-      <string>Type</string>
+      <string>Tipo</string>
      </property>
     </widget>
    </item>
