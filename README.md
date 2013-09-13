@@ -55,7 +55,7 @@ Compilazione x OSX  Tested with QT 4.8
 
 cd ~/ItalyCoin/src
 
-make -f makefile.osx
+make -f makefile.osx USE_UPNP=1
 
 compilazione gui qt:
 

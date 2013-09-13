@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>760</width>
+    <width>984</width>
     <height>380</height>
    </rect>
   </property>
@@ -17,7 +17,7 @@
    <item>
     <widget class="QLabel" name="labelExplanation">
      <property name="text">
-      <string>These are your ItalyCoin addresses for receiving payments. You may want to give a different one to each sender so you can keep track of who is paying you.</string>
+      <string>Qui trovi gli indirizzi per ricevere i tuoi ItalyCoin. Puoi avere quanti wallet vuoi.</string>
      </property>
      <property name="textFormat">
       <enum>Qt::PlainText</enum>
@@ -63,7 +63,7 @@
         <string>Create a new address</string>
        </property>
        <property name="text">
-        <string>&amp;New Address</string>
+        <string>&amp;Nuovo Indirizzo</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -77,7 +77,7 @@
         <string>Copy the currently selected address to the system clipboard</string>
        </property>
        <property name="text">
-        <string>&amp;Copy Address</string>
+        <string>&amp;Copia Indirizzo</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -88,7 +88,7 @@
      <item>
       <widget class="QPushButton" name="showQRCode">
        <property name="text">
-        <string>Show &amp;QR Code</string>
+        <string>Vedi &amp;QR Code</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -102,7 +102,7 @@
         <string>Sign a message to prove you own a Bitcoin address</string>
        </property>
        <property name="text">
-        <string>&amp;Sign Message</string>
+        <string>&amp;Firma Messaggio</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -116,7 +116,7 @@
         <string>Verify a message to ensure it was signed with a specified Bitcoin address</string>
        </property>
        <property name="text">
-        <string>&amp;Verify Message</string>
+        <string>&amp;Verifica Messaggio</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
@@ -130,7 +130,7 @@
         <string>Delete the currently selected address from the list. Only sending addresses can be deleted.</string>
        </property>
        <property name="text">
-        <string>&amp;Delete</string>
+        <string>&amp;Cancella</string>
        </property>
        <property name="icon">
         <iconset resource="../bitcoin.qrc">
