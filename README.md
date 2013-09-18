@@ -6,7 +6,7 @@ LiteCoin è la versione lite di Bitcoin che utilizza scrypt come algoritmo di la
 
 Informazioni su ItalyCoin:
 
-5 Miliardi di coin massimi.
+50 Miliardi di coin massimi.
 
 Un nuovo blocco ogni 60 sec.
 
